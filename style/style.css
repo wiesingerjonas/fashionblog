@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+}
+img {
+    width: 100vw;
+    position: absolute;
+}
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(28, 28, 28, .9);
+    position: absolute;
+}
+#captcha {
+    width: 20vw;
+    height: content-box;
+    margin: 15vh 40vw;
+    background-color: white;
+    padding: .75vw;
+    border-collapse: collapse;
+}
+#header {
+    background-color: #4A90E2;
+    font-size: larger;
+    padding: 8%;
+}
+#header p {
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+#imagewrapper img {
+    width: 5.86vw;
+    margin: .4vw;
+    position: relative;
+    box-sizing: border-box;
+    border-color: white;
+}
+#footer {
+    font-size: xx-large;
+    color: grey;
+    vertical-align: bottom;
+    padding: 2vh .75vw 0 .75vw;
+    border-top: 1px grey solid;
+    margin: 0 -0.75vw;
+}
+#footer i {
+    padding: 0 .5vw;
+}
