@@ -3,6 +3,8 @@ body {
     padding: 0;
     overflow: hidden;
     user-select: none;
+    font-family: Arial, sans-serif;
+
 }
 img {
     width: 100vw;
@@ -30,7 +32,6 @@ img {
 #header p {
     color: white;
     margin: 0;
-    font-family: Arial, sans-serif;
     font-weight: bold;
 }
 #imagewrapper img {
@@ -50,4 +51,12 @@ img {
 }
 #footer i {
     padding: 0 .5vw;
+}
+#footer div {
+    background-color: grey;
+    color: white;
+    font-size: large;
+    width: max-content;
+    padding: 1vh 1vw;
+    float: right;
 }

@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
 
     document.getElementById("headphones").addEventListener("click", ()=>sayOoh());
     document.getElementById("question").addEventListener("click", ()=>sayOoh());
+    document.getElementById("verify").addEventListener("click", ()=>sayOoh());
     document.getElementById("refresh").addEventListener("click", ()=>refreshImg());
 
     let ooh = document.getElementById("audio");
